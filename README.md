@@ -1,70 +1,36 @@
-# Getting Started with Create React App
+# CryptoWorld - React Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+CryptoWorld is a React-based website that provides real-time information and statistics about cryptocurrencies. It offers a user-friendly interface and incorporates various libraries and technologies to enhance the user experience.
 
-## Available Scripts
+Check out the live demo: https://mrus-cryptoworld.netlify.app
 
-In the project directory, you can run:
+## Technologies Used
 
-### `npm start`
+- [Create React App](https://github.com/facebook/create-react-app) - A popular tool for setting up React applications quickly.
+- [Ant Design](https://ant.design/) - A design system with a set of high-quality React components.
+- [Redux](https://redux.js.org/) - A state management library for managing the application's state.
+- [Chart.js](https://www.chartjs.org/) - A JavaScript library for creating interactive and customizable charts.
+- [Millify](https://www.npmjs.com/package/millify) - A library for formatting numbers as millified or abbreviated numbers.
+- [Moment.js](https://momentjs.com/) - A JavaScript library for parsing and manipulating dates and times.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Real-time cryptocurrency data.
+- Interactive charts to visualize cryptocurrency trends.
+- User-friendly and responsive design using Ant Design components.
+- State management with Redux for a consistent and reliable user experience.
+- Number formatting using Millify for improved readability.
+- Date and time handling with Moment.js.
 
-### `npm test`
+## Snips of the site
+<img width="1440" alt="image" src="https://github.com/mrudh/cryptoworld/assets/42245523/853caf89-2598-44bd-bbc3-e488f8fd5381">
+<img width="1440" alt="image" src="https://github.com/mrudh/cryptoworld/assets/42245523/69085408-b78e-4905-a567-8717f7c23353">
+<img width="1440" alt="image" src="https://github.com/mrudh/cryptoworld/assets/42245523/c94c4faa-5a93-40da-81b9-33f1b34a3e83">
+<img width="1440" alt="image" src="https://github.com/mrudh/cryptoworld/assets/42245523/4e93b9fc-fd01-43a8-8cb3-6b68dd246ed3">
+<img width="1416" alt="image" src="https://github.com/mrudh/cryptoworld/assets/42245523/5947a643-ca81-4cea-b02c-280575fb0bc0">
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
