@@ -1,25 +1,42 @@
-import logo from './logo.svg';
+import React from 'react'
+import {Routes, Route, Link} from 'react-router-dom';
+import {Layout, Typography, Space} from 'antd';
+import {Cryptocurrencies, Homepage, CryptoDetails, News, Navbar, Top10Coins} from './components';
 import './App.css';
-
-function App() {
+const d = new Date();
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='app'>
+      <div className="navbar">
+        <Navbar/>
+      </div>
+      <div className="main">
+        <Layout>
+          <div className='routes'>
+            <Routes>
+              <Route exact path="/" element={<Homepage/>}/>
+              <Route exact path="/top10" element={<Top10Coins/>}/>
+              <Route exact path="/cryptocurrencies" element={<Cryptocurrencies/>}/>
+              <Route exact path="/crypto/:coinId" element={<CryptoDetails/>}/>
+              <Route exact path="/news" element={<News/>}/>
+            </Routes>
+          </div>
+        </Layout>
+      
+        <div className="footer" >
+          <Typography.Title level={5} style={{color:'white', textAlign:'center'}}>
+            CryptoWorld <br/>
+            All rights reserved © {d.getFullYear()}
+          </Typography.Title>
+          <Space size={'large'}>
+            <Link className="gap-border" to="/">Home</Link>
+            <Link className="gap-border" to="/top10">Coins Ranking</Link>
+            <Link to="/news">News</Link>
+          </Space>
+        </div>
+      </div>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
